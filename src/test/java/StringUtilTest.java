@@ -2,10 +2,13 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class StringUtilTest {
+    StringMethods object=new StringMethods();
     @Test
     public void checkLengthOfAString()
     {
-        String textString="Hello World!!";
-        Assert.assertEquals(textString.length(),13);
+        int length = object.getStringLength("Hello World!!");
+        Assert.assertEquals(length,13);
     }
+
+
 }
