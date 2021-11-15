@@ -6,6 +6,6 @@ public class StringUtilTest {
     public void checkLengthOfAString()
     {
         String textString="Hello World!!";
-        Assert.assertEquals(textString.length(),12);
+        Assert.assertEquals(textString.length(),13);
     }
 }
