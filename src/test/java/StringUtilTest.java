@@ -5,7 +5,7 @@ public class StringUtilTest {
     @Test
     public void checkLengthOfAString()
     {
-        String text="Hello World!";
-        Assert.assertEquals(text.length(),12);
+        String textString="Hello World!";
+        Assert.assertEquals(textString.length(),12);
     }
 }
